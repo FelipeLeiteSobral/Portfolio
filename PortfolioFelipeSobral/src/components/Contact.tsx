@@ -111,7 +111,6 @@ export const Contact = () => {
               </Heading>
 
               <div className="space-y-6">
-                {/* Email */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Mail size={20} className="text-primary" />
@@ -126,7 +125,6 @@ export const Contact = () => {
                     </a>
                   </div>
                 </div>
-                {/* Telefone */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Phone size={20} className="text-primary" />
@@ -141,7 +139,6 @@ export const Contact = () => {
                     </a>
                   </div>
                 </div>
-                {/* Localização */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <MapPin size={20} className="text-primary" />
@@ -159,7 +156,6 @@ export const Contact = () => {
                     </a>
                   </div>
                 </div>
-                {/* GitHub */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Github size={20} className="text-primary" />
@@ -175,7 +171,6 @@ export const Contact = () => {
                     </a>
                   </div>
                 </div>
-                {/* LinkedIn */}
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
                     <Linkedin size={20} className="text-primary" />
