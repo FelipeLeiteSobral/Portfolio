@@ -14,7 +14,7 @@ const PROJECTS_CONFIG = {
       title: "Site Odontológico",
       description:
         "Site moderno para clínica odontológica com agendamento online, blog de saúde bucal e área de depoimentos.",
-      image: "src/assets/sitePatty.png",
+      image: "/sitePatty.png",
       technologies: ["React", "TypeScript", "Chart.js", "Tailwind CSS"],
       liveUrl: "https://website-patricia-sobral.vercel.app/",
       githubUrl: "https://github.com/FelipeLeiteSobral/Website-Patricia-Sobral",
@@ -25,7 +25,7 @@ const PROJECTS_CONFIG = {
       title: "E-commerce Bem Nerd",
       description:
         "Loja virtual moderna com carrinho de compras, design imersivo e navegação intuitiva.",
-      image: "src/assets/ecommerce_teste.png",
+      image: "/ecommerce_teste.png",
       technologies: ["React", "Tailwind"],
       liveUrl: "https://projeto-de-e-commerce.vercel.app/",
       githubUrl:
@@ -37,7 +37,7 @@ const PROJECTS_CONFIG = {
       title: "Contador Regressivo",
       description:
         "Contador regressivo real-time, ideal para eventos especiais.",
-      image: "src/assets/contador.png",
+      image: "/contador.png",
       technologies: ["React", "Tailwind"],
       liveUrl: "404",
       githubUrl:

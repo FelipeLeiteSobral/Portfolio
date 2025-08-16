@@ -1,9 +1,9 @@
-import fotoPerfil from "@/assets/fotoPerfil.jpg";
+// Removido: imagem agora está em public
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 import { Section } from "@/components/ui/section";
 import { Heading } from "@/components/ui/heading";
-import profilePhoto from "@/assets/profile-photo.jpg";
+// Removido: imagem agora está em public
 
 export const Hero = () => {
   return (
@@ -54,7 +54,7 @@ export const Hero = () => {
                 asChild
               >
                 <a
-                  href="src/assets/Programador_Felipe_Leite_Sobral_Curriculum.pdf"
+                  href="/Programador_Felipe_Leite_Sobral_Curriculum.pdf"
                   download
                 >
                   Download CV
@@ -98,7 +98,7 @@ export const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 lg:w-88 lg:h-88 rounded-full overflow-hidden card-shadow-hover border-4 border-background">
                 <img
-                  src={fotoPerfil}
+                  src="fotoPerfil.jpg"
                   alt="Felipe Sobral - Desenvolvedor Front-end"
                   className="w-full h-full object-cover scale-hover"
                 />
